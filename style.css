@@ -1,4 +1,43 @@
 *{
     margin:0;
     padding:0;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.start-section-container{
+    background-color:  rgba(255, 144, 14, 0.10);
+}
+
+.navigation{
+    display:flex;
+    justify-content: space-around;
+}
+
+.navigation-title{
+    font-size: 2.8rem;
+    color: #131313;
+
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+   
+}
+
+nav ul a{
+    text-decoration: none;
+    padding: 30px;
+
+    color:#424242;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 500;
+
+   
 }
